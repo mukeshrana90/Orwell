@@ -10,6 +10,9 @@ class Header extends Component {
         e.preventDefault();
         $('body,html').stop().animate({scrollTop:$($(this).attr('href')).offset().top - 100 + 'px'}, 500);
     })    
+    $('.mobileMenuBtn').click(function () {
+      $('.mainNav').toggleClass('active');
+    })
 }
 
   render() {

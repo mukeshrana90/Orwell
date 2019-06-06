@@ -48,17 +48,17 @@ header.fixed {
 
 .mobileMenuBtn {
   border: none;
-  width: 45px;
+  width: 43px;
   padding: 0;
-  background: #fff;
   cursor: pointer;
-  display: none;
+  display: none;  
+  background: none;
 }
 
 .mobileMenuBtn span {
   display: block;
   height: 4px;
-  background: #222;
+  background: #fff;
   margin: 6px;
   border-radius: 3px;
 }
@@ -89,6 +89,7 @@ header.fixed {
   width: 100%;
   position: relative;
 }
+
 .videoOverlay {
   position: absolute;
   top: 0;
@@ -143,22 +144,27 @@ header.fixed {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
   color: #222;
 }
+
 .iconBox h4 {
   color: #333;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 18px;
 }
+
 .tabsContainer {
-  display: flex;  
+  display: flex;
 }
+
 .tabsContent {
   width: 50%;
-  background: #222;    
+  background: #222;
 }
+
 .tabLinks {
-  width: 50%;  
+  width: 50%;
 }
+
 .tabsContent .tab {
   position: absolute;
   opacity: 0;
@@ -170,16 +176,18 @@ header.fixed {
   top: 0;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   transition: all .35s;
   transform: scale(.9);
 }
+
 .tabsContent .tab.active {
   position: relative;
   opacity: 1;
-  visibility: visible; 
-  transform: scale(1); 
+  visibility: visible;
+  transform: scale(1);
 }
+
 .tabLinkBox {
   background: #fafafa;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -187,50 +195,63 @@ header.fixed {
   display: flex;
   align-items: center;
 }
+
 .tabLinkBox.active {
   background: #111;
   color: #fff;
 }
+
 .tabLinkBox.active h5 {
   color: #fff;
 }
+
 .tabLinks {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 .tabLinks ul {
   margin: 0;
 }
+
 .tabLinks a {
   color: #555;
 }
+
 .tabLinkBox figure {
   padding-right: 20px;
 }
+
 .tabLinkBox figure i {
   font-size: 40px;
 }
+
 .tabLinkBox p {
   margin: 0;
 }
+
 .tabLinkBox h5 {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 18px;
-  color: #222; 
+  color: #222;
 }
+
 .teamBox {
   padding: 40px 20px;
   text-align: center;
   position: relative;
 }
+
 .teamBox figure img {
   border-radius: 50%;
 }
+
 .teamBox h3 {
   font-size: 17px;
   font-weight: 600;
   color: #222;
 }
+
 .teamDetails {
   position: absolute;
   background: #222;
@@ -246,30 +267,37 @@ header.fixed {
   opacity: 0;
   visibility: hidden;
 }
+
 .teamBox:hover .teamDetails {
   height: 100%;
   opacity: 1;
   visibility: visible;
 }
+
 .teamDetails h3 {
   color: #fff;
 }
+
 .teamDetails a {
   color: #fff;
 }
+
 .teamDetails a:hover {
   color: #999;
 }
+
 .team-socials a {
   padding: 3px 10px;
   display: inline-block;
 }
+
 .digitalRev {
   background: url('../images/digital-revolution.jpg') no-repeat center center #000000;
   background-size: contain;
   height: 600px;
-  position: relative;  
+  position: relative;
 }
+
 .digitalRev .playVideo {
   height: 100px;
   width: 100px;
@@ -287,18 +315,22 @@ header.fixed {
   padding: 0;
   transition: all .3s;
 }
+
 .digitalRev .playVideo:hover {
   background: #fff;
   color: #000;
   border-color: #000;
 }
+
 .newsletterContainer {
   background: #000;
   color: #fff;
 }
+
 .newsletterContainer .section-heading {
   color: #fff;
 }
+
 .input-group input {
   border: none !important;
   padding: 13px 30px;
@@ -309,6 +341,7 @@ header.fixed {
   font-weight: 600;
   font-size: 14px;
 }
+
 .input-group button {
   margin-left: 20px;
   background: #000;
@@ -322,31 +355,38 @@ header.fixed {
   letter-spacing: .5px;
   cursor: pointer;
 }
+
 .brands ul {
-  display: flex;  
+  display: flex;
   justify-content: space-between;
-  align-items: center;  
+  align-items: center;
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .brands li {
   padding: 10px;
   margin: 0 10px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .brands li img {
   max-width: 100%;
 }
+
 .blogContainer {
   background: #FAFAFA;
 }
+
 .blogPost {
   position: relative;
 }
+
 .blogPost img {
   max-width: 100%;
 }
+
 .blogPost .postDetails {
   position: absolute;
   background: #111;
@@ -358,30 +398,36 @@ header.fixed {
   transition: all 0.35s;
   color: #fff;
 }
+
 .blogPost:hover .postDetails {
   height: 100%;
   opacity: 1;
 }
+
 .postDetails h4 {
-  font-weight: 600;  
+  font-weight: 600;
 }
+
 .postDetailsBox {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   width: 100%;
   padding: 30px 20px;
   text-align: center;
 }
+
 .contactContainer {
   background: #000;
 }
+
 .mapMarker {
   background: url('../images/marker.png') no-repeat;
   width: 27px;
   height: 43px;
 }
+
 .contactDetails {
   background: #fff;
   display: flex;
@@ -392,31 +438,38 @@ header.fixed {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
   border-radius: 3px;
 }
+
 .contactDetails .CDBox {
   width: 33.33%;
   text-align: center;
   padding: 60px 30px;
   border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 .contactDetails .CDBox:last-child {
   border: none;
 }
+
 .CDBox figure i {
   font-size: 40px;
   color: #333
 }
+
 .CDBox h5 {
   font-weight: 700;
   color: #222;
 }
+
 .footer {
   padding: 30px 0;
   font-size: 13px;
 }
+
 .footer a {
   font-weight: 600;
   color: #222;
 }
+
 .videoSection iframe {
   width: 100%;
   height: 100%;
@@ -425,6 +478,7 @@ header.fixed {
   left: 0;
   border: none;
 }
+
 .videoModal {
   position: fixed;
   top: 0;
@@ -435,6 +489,7 @@ header.fixed {
   z-index: 10;
   display: none;
 }
+
 .videoModal iframe {
   position: absolute;
   width: 800px;
@@ -442,5 +497,143 @@ header.fixed {
   height: 450px;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+}
+.socialIcons {
+  position: fixed;
+  bottom: 0;
+  right: 0;  
+  padding: 5px 10px;
+  color: #fff;
+  display: flex;
+  background: #000;
+  align-items: center;
+  border-radius: 3px 0 0 0;
+  z-index: 1;
+}
+.socialIcons p {
+  font-weight: 600;
+  font-size: 14px;
+}
+.socialIcons ul {
+  display: flex;
+  padding-left: 10px;
+}
+.socialIcons li a {
+  padding: 3px 5px;
+  color: #fff;
+  display: block;
+}
+.socialIcons li a:hover {
+  color: #999;
+}
+
+/* Media Quaries  */
+@media only screen and (max-width: 767px) {
+  .mobileMenuBtn {
+    display: block;
+  }
+  .header {
+    justify-content: space-between;
+  }
+  .logo {
+    width: 150px;
+  }
+  .mainNav {
+    position: fixed;
+    top: 0;
+    left: -10px;
+    transition: all .35s;
+    transform: translateX(-270px);
+    background: #111;
+    bottom: 0;
+    width: 270px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    display: block;
+    padding: 40px 20px;
+  }
+
+  .mainNav.active {
+    transform: translateX(0);
+    left: 0;
+  }
+  .mainNav ul {
+    display: block;
+  }
+  .mainNav ul li {
+    display: block;
+  }
+  .mainNav ul li a {
+    padding: 15px 10px;
+  }
+  .videoSection {
+    height: 230px;
+    margin-top: 50px;
+  }
+  .section-heading {
+    font-size: 35px;
+  }
+  .tabsContainer {
+    display: block;
+  }
+  .tabsContent {
+    width: 100%;
+  }
+  .tabsContent .tab {
+    height: 300px;
+  }
+  .tabLinks {
+    border: none;
+    width: 100%;
+  }
+  .tabLinkBox {
+    padding: 20px;
+  }
+  .teamDetails {
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+    position: static;
+  }
+  .digitalRev {
+    height: 370px;
+    background-position: center 50px;
+  }
+  .digitalRev .playVideo {
+    height: 50px;
+    width: 100px;
+    bottom: 60px;
+  }
+  .videoModal iframe {
+    height: 270px;
+  }
+  .brands ul {
+    flex-wrap: wrap;
+  }
+  .brands ul li {
+    width: 42%;
+    margin-bottom: 20px;
+  }
+  .blogPost {
+    margin-bottom: 30px;
+  }
+  .blogPost .postDetails {
+    position: static;
+    opacity: 1;
+    height: auto;
+    display: block;
+  }
+  .postDetailsBox {
+    position: static;
+    transform: none;
+  }
+  .contactDetails {
+    display: block;
+  }
+  .contactDetails .CDBox {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
 }

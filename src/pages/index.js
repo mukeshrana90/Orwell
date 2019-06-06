@@ -9,6 +9,7 @@ import Team from "../components/Team";
 import Brands from "../components/Brands";
 import WebPlatform from "../components/WebPlatform";
 import Banner from "../components/Banner";
+import SocialIcons from "../components/SocialIcons";
 
 
 class IndexPage extends Component {
@@ -25,6 +26,7 @@ class IndexPage extends Component {
         <Brands />
         <Blog />
         <Contact />
+        <SocialIcons />
       </Layout>
     )
   }
